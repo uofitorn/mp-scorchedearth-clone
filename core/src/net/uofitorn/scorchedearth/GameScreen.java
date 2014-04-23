@@ -99,7 +99,7 @@ public class GameScreen implements Screen {
 
         // tell the camera to update its matrices.
         camera.update();
-        
+        /*
         // tell the SpriteBatch to render in the
         // coordinate system specified by the camera.
         game.batch.setProjectionMatrix(camera.combined);
@@ -128,7 +128,7 @@ public class GameScreen implements Screen {
             } else if (rightArrowRect.contains(touchPos.x, touchPos.y)) {
             	tank1.setX(tank1.getX() + 1);
             }
-        }      
+        }      */
 	}
 	
 	@Override
